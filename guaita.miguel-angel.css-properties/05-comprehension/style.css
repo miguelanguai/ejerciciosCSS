@@ -24,11 +24,12 @@ h2{
 styles specific to the setup of the card container
 */
 .card {
-    width: 90%;
+    width: 35%;
     height: 90%;
     background-color: rgb(191, 0, 0);
     border: 5px solid black;
     border-radius: 30px;
+    margin: 5em auto;
 }
 
 /*
@@ -36,7 +37,6 @@ styles specific to the header and footer
 */
 .card header{
     background: rgb(2, 0, 36);
-
     background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%,
      rgba(230, 0, 0, 1) 100%);
     border-top-right-radius: 30px;
@@ -44,7 +44,6 @@ styles specific to the header and footer
 }
 .card footer {
     background: rgb(2, 0, 36);
-
     background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%,
      rgba(230, 0, 0, 1) 100%);
     border-bottom-right-radius: 30px;
